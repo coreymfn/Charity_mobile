@@ -73,3 +73,42 @@
   object-fit: cover;
   border-radius: 8px;
 }
+@media (max-width: 900px) {
+  .main {
+    padding: 30px 15px;
+  }
+  .card {
+    width: 100%;
+  }
+  .title {
+    font: size 36px;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    padding: 40px 15px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .gallery {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card {
+    width: 100%;
+    min-width: 0;
+  }
+  .image {
+    height: auto;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
+}
