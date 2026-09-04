@@ -1,0 +1,75 @@
+.page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #26384a;
+}
+.header {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #cfe3f5;
+}
+.title {
+  margin-bottom: 15px;
+  font-size: 42px;
+}
+.subtitle {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  background-color: #3976a8;
+  color: white;
+  text-decoration: none;
+}
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.section {
+  margin-bottom: 60px;
+}
+.heading {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.paragraph {
+  line-height: 1.6;
+}
+.gallery {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 45%;
+  min-width: 280px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.card-title {
+  font-size: 22px;
+}
+.external-link {
+  color: #3976a8;
+}
+.footer {
+  padding: 25px;
+  text-align: center;
+  background-color: #cfe3f5;
+}
+.footer-text {
+  margin: 0;
+}
+.image {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
